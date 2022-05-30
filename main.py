@@ -91,7 +91,7 @@ def main():
         try:
             status = int(select('', 'HOME'))
         except:
-            status = int(select('', 'HOME'))
+            continue
             
         if status == 0:
             bye()
